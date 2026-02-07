@@ -3,7 +3,7 @@
 [![PyPI](https://img.shields.io/badge/PyPI-pycas--sso-blue)](https://pypi.org/project/pycas-sso/)
 [![Python Version](https://img.shields.io/badge/Python->=3.10-yellowgreen)](https://www.python.org/downloads/)
 [![License: BSD-3-Clause](https://img.shields.io/badge/license-BSD--3--Clause-orange.svg)](https://opensource.org/license/bsd-3-clause)
-![tests](https://img.shields.io/badge/Tests-pass-success)
+[![tests](https://github.com/unguestapp/pycas-sso/actions/workflows/tests.yml/badge.svg)](https://github.com/unguestapp/pycas-sso/actions/workflows/tests.yml)
 ![coverage](https://img.shields.io/badge/Coverage-94%25-lightgrey)
 
 
