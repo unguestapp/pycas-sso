@@ -130,7 +130,7 @@ pytest -vv
 
 ## 📝 License
 
-This project is licensed under BSD-3-Clause or later. See [LICENSE](LICENSE) for more details.
+This project is licensed under BSD-3-Clause or later. See [LICENSE](https://github.com/unguestapp/pycas-sso/blob/main/LICENSE) for more details.
 
 ## 👤 Author
 
@@ -138,11 +138,11 @@ This project is licensed under BSD-3-Clause or later. See [LICENSE](LICENSE) for
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please refer to [CONTRIBUTING.md](docs/source/contributing.md) for guidelines.
+Contributions are welcome! Please refer to [CONTRIBUTING.md](https://github.com/unguestapp/pycas-sso/blob/main/CONTRIBUTING.md) for guidelines.
 
 ## 📋 Changelog
 
-See [CHANGELOG.md](CHANGELOG.md) for the history of changes.
+See [CHANGELOG.md](https://github.com/unguestapp/pycas-sso/blob/main/CHANGELOG.md) for the history of changes.
 
 ## 📖 Resources
 

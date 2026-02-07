@@ -4,15 +4,32 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pycas-sso"
-version = "0.1.0"
+version = "0.1.0-1"
 description = "Python client for the CAS protocol, compatible with several HTTP clients with asynchronous support."
+keywords = ["cas", "sso", "central authentication service", "authentication", "cas protocol", "security"]
 readme = "README.md"
+requires-python = ">=3.10"
 
 authors = [ 
-    { name = "CANDIA Nicolas", email = "nicolas.cnd@outlook.com" } 
+    { name = "Eryux", email = "nicolas.cnd@outlook.com" } 
 ]
 
-requires-python = ">=3.10"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: BSD License",
+  "Operating System :: OS Independent",
+
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Security",
+]
+
 dependencies = [
     "lxml"
 ]
@@ -39,7 +56,8 @@ aiohttp = [
 
 [project.urls]
 Documentation = "https://pycas-sso.readthedocs.io/en/latest/"
-GitLab = "https://github.com/unguestapp/pycas-sso"
+Repository = "https://github.com/unguestapp/pycas-sso"
+Changelog = "https://github.com/unguestapp/pycas-sso/blob/main/CHANGELOG.md"
 
 [tool.pytest.ini_options]
 minversion = "7.0"
