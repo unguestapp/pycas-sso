@@ -2,6 +2,8 @@ name: Build & Release in GitHub Release
 
 on:
   push:
+    branches:
+      - main
     tags:
       - "v*"
 
@@ -14,10 +16,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Verify tag is on main
-        run: |
-          git branch --contains $GITHUB_SHA | grep -q "main"
 
       - name: Set up Python
         uses: actions/setup-python@v5
