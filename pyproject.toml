@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pycas-sso"
+version = "0.1.0"
+description = "Python client for the CAS protocol, compatible with several HTTP clients with asynchronous support."
+readme = "README.md"
+
+authors = [ 
+    { name = "CANDIA Nicolas", email = "nicolas.cnd@outlook.com" } 
+]
+
+requires-python = ">=3.10"
+dependencies = [
+    "lxml"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "pytest-cov",
+    "pytest-httpserver"
+]
+
+httpx = [
+    "httpx"
+]
+
+requests = [
+    "requests"
+]
+
+aiohttp = [
+    "aiohttp"
+]
+
+[project.urls]
+Documentation = "https://pycas-sso.readthedocs.com/"
+GitLab = "https://github.com/unguestapp/pycas-sso"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "--cov=pycas_sso --cov-report=term-missing"
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["pycas_sso"]
