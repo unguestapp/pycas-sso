@@ -3,3 +3,4 @@ sphinx-autobuild
 sphinx-copybutton
 myst-parser
 furo
+pycas-sso==0.1.0

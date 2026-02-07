@@ -43,7 +43,7 @@ PyPI <https://pypi.org>
 
 ## License
 
-This project is licensed under BSD-3-Clause or later.
+This project is licensed under BSD-3-Clause.
 
 ---
 
