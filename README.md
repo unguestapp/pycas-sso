@@ -104,7 +104,7 @@ asyncio.run(main())
 
 ## 📚 Documentation
 
-Full documentation is available at [docs/](docs/source/).
+Full documentation is available at [https://pycas-sso.readthedocs.io/](https://pycas-sso.readthedocs.io/en/latest/).
 
 ### Contributing
 

@@ -38,7 +38,7 @@ aiohttp = [
 ]
 
 [project.urls]
-Documentation = "https://pycas-sso.readthedocs.com/"
+Documentation = "https://pycas-sso.readthedocs.io/en/latest/"
 GitLab = "https://github.com/unguestapp/pycas-sso"
 
 [tool.pytest.ini_options]
